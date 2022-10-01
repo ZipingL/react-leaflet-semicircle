@@ -36,31 +36,38 @@
         "leaflet-semicircle": "^2.0.4"
     },
     "devDependencies": {
-        "@babel/cli": "^7.15.7",
+        "@babel/cli": ">=7.15.7",
         "@babel/core": "^7.15.8",
         "@babel/preset-env": "^7.15.8",
         "@babel/preset-react": "^7.14.5",
-        "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+        "@zarconontol/enzyme-adapter-react-18": ">=0.7.0",
         "auto-changelog": "^2.3.0",
-        "babel-core": "^7.0.0-bridge.0",
+        "babel-core": ">=6.26.3",
         "babel-eslint": "^10.1.0",
-        "babel-jest": "^26.6.3",
+        "babel-jest": ">=27.0.6",
         "enzyme": "^3.11.0",
         "eslint": "^7.19.0",
         "eslint-plugin-prettier": "^3.3.1",
         "eslint-plugin-react": "^7.26.1",
-        "jest": "^26.6.3",
-        "leaflet": "^1.7.1",
-        "np": "^7.5.0",
-        "prettier": "^2.4.1",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-leaflet": "^3.2.2"
+        "jest": ">=26.6.3 && <=29.0.0",
+        "leaflet": "^1.9.1",
+        "np": "^7.6.2",
+        "prettier": ">=2.7.0",
+        "react": ">= 18.2.0",
+        "react-dom": ">= 18.0.0",
+        "react-leaflet": ">=4.0.0"
     },
     "peerDependencies": {
+        "babel-core": "7.0.0-bridge.0 || ^6.0.0",
         "leaflet": "^1.0.0",
-        "react": "^15.0.0 || ^16.0.0 || ^17.0.0",
-        "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0",
-        "react-leaflet": "^3.0.0"
+        "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+        "react-leaflet": "^3.0.0 || ^4.0.0"
+    },
+    "optionalDependencies": {
+        "@zarconontol/enzyme-adapter-react-18": "*",
+        "babel-jest": "^26.6.3",
+        "grunt-appdmg": "^1.0.0",
+        "np": "^7.6.2",
+        "react": ">=17.0.0 && <=18.0.0 || >=16.0.0 && <=17.0.0 || >=15.0.0 && <=16.0.0"
     }
 }
