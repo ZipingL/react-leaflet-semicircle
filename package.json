@@ -1,6 +1,6 @@
 {
-    "name": "react-leaflet-semicircle",
-    "version": "4.2.0.69",
+    "name": "react-leaflet-semicircle-18",
+    "version": "4.2.0",
     "description": "React wrapper of leaflet-semicircle",
     "main": "dist/index.js",
     "module": "src/index.js",
